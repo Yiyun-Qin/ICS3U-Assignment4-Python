@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="rLGnvC9Nkm9UupT1OyRd" name="top-down">
-        <mxGraphModel dx="1181" dy="461" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1436" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,19 +13,22 @@
                 <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Adding" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="2" value="quadratic equation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="160" y="150" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-30" y="260" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="-80" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" parent="1" source="4" target="20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="22">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -35,19 +38,22 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="260" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="380" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Get the number the program will add to" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="-40" y="370" width="140" height="70" as="geometry"/>
+                <mxCell id="6" value="Get a, b and c" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="-90" y="360" width="140" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="Add start from 1 to that number&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="260" y="460" width="120" height="60" as="geometry"/>
+                <mxCell id="11" value="x&lt;sub&gt;1&lt;/sub&gt; = (-b +&amp;nbsp;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;√b&lt;sup&gt;2&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255) ; font-size: 11.6667px&quot;&gt;&amp;nbsp;- 4ac) / 2a, x&lt;sub&gt;2&lt;/sub&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font size=&quot;1&quot;&gt;&amp;nbsp;= (&lt;/font&gt;&lt;/span&gt;-b -&amp;nbsp;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;√b&lt;sup&gt;2&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11.6667px ; color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;- 4ac) / 2a&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="460" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="Show the result sum" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="370" y="370" width="120" height="60" as="geometry"/>
+                <mxCell id="16" value="Show the result x" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="365" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" value="Get loop_counter = 0 and answer = 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="60" y="460" width="130" height="60" as="geometry"/>
+                <mxCell id="20" value="check if b&lt;sup&gt;2&lt;/sup&gt; - 4ac is &amp;gt; 0, == 0 or &amp;lt; 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="460" width="130" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="no x if b&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;- 4ac &amp;lt; 0, one x if b&lt;sup&gt;2&lt;/sup&gt;&amp;nbsp;- 4ac == 0&lt;br&gt;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="460" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
