@@ -1,3 +1,4 @@
+SHOW "The quadratic equation is like ax^2+bx+c=0, while a, b and c are constants."
 GET a_string
 GET b_string
 GET c_string
@@ -6,7 +7,7 @@ TRY
     b_integer = int(b_string)
     c_integer = int(c_string)
     delta = pow(b_integer, 2) - 4 * a_integer * c_integer
-    SHOW "The equation is a_integerx^2+b_integerx+c_integer."
+    SHOW "The equation is a_integerx^2+b_integerx+c_integer=0."
     IF delta < 0 THEN
         SHOW "No real solutions for this quadratic equation!"
     ELSEIF delta == 0 THEN

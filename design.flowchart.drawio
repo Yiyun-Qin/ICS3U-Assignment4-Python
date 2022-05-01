@@ -145,7 +145,7 @@
                 <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="105" target="75">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="105" value="Print &quot;The equation is a_integerx&lt;sup&gt;2&lt;/sup&gt;+b_integerx+c_integer.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+                <mxCell id="105" value="Print &quot;The equation is a_integerx&lt;sup&gt;2&lt;/sup&gt;+b_integerx+c_integer=0.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
                     <mxGeometry x="330" y="790" width="260" height="90" as="geometry"/>
                 </mxCell>
             </root>
