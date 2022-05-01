@@ -5,7 +5,7 @@ TRY
     a_integer = int(a_string)
     b_integer = int(b_string)
     c_integer = int(c_string)
-    delta = b^2 - 4 * a * d
+    delta = pow(b_integer, 2) - 4 * a_integer * c_integer
     IF delta < 0 THEN
         SHOW "No solutions for this quadratic equation!"
     ELSEIF delta == 0 THEN
