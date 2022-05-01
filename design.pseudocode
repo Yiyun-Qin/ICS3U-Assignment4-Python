@@ -15,7 +15,7 @@ TRY
     ELSE
         x1 = (-b + pow(delta, 1 / 2)) / 2a
         x2 = (-b - pow(delta, 1 / 2)) / 2a
-        SHOW "There are two solution for this quadratic equation. The answers are x1 and x2."
+        SHOW "There are two solutions for this quadratic equation. The answers are x1 and x2."
     ENDIF
 EXCEPT Exception
     SHOW "Invalid number!"
