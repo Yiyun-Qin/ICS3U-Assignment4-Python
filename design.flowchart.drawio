@@ -17,7 +17,7 @@
                     <mxGeometry x="147.5" y="100" width="165" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="90" y="1380" width="100" height="60" as="geometry"/>
+                    <mxGeometry x="90" y="1470" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="170" y="490" width="60" height="30" as="geometry"/>
@@ -79,7 +79,7 @@
                 <mxCell id="70" value="convert c_string to c&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Get%20a_string%22%20style%3D%22shape%3Dparallelogram%3Bhtml%3D1%3BstrokeWidth%3D2%3Bperimeter%3DparallelogramPerimeter%3BwhiteSpace%3Dwrap%3Brounded%3D1%3BarcSize%3D12%3Bsize%3D0.23%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22147.5%22%20y%3D%22100%22%20width%3D%22165%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;_integer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="165" y="700" width="130" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="73" target="75">
+                <mxCell id="106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="73" target="105">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="73" value="delta = b_integer&lt;sup&gt;2&lt;/sup&gt; - 4 * a_integer * c_integer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
@@ -133,7 +133,7 @@
                 <mxCell id="92" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="89" target="91">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="89" value="x&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;/span&gt;&amp;nbsp;= (-b -&amp;nbsp;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; background-color: rgb(255 , 255 , 255)&quot;&gt;√b&lt;sup&gt;2&lt;/sup&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11.6667px ; color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;- 4ac) / 2a&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="89" value="x&lt;span style=&quot;font-size: 10px&quot;&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;/span&gt;&amp;nbsp;= (-b -&amp;nbsp;&lt;span style=&quot;color: rgb(32 , 33 , 36) ; background-color: rgb(255 , 255 , 255)&quot;&gt;pow(delta, 1 / 2))&lt;/span&gt;&lt;span style=&quot;font-size: 11.6667px ; color: rgb(32 , 33 , 36) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&amp;nbsp;/ 2a&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="810" y="1080" width="150" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="91" target="8">
@@ -141,6 +141,12 @@
                 </mxCell>
                 <mxCell id="91" value="Print &quot;There are two solution for this quadratic equation. The answers are x&lt;sub&gt;1&lt;/sub&gt; and x&lt;sub&gt;2&lt;/sub&gt;.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
                     <mxGeometry x="735" y="1225" width="300" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="105" target="75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="Print &quot;The equation is a_integerx&lt;sup&gt;2&lt;/sup&gt;+b_integerx+c_integer.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="790" width="260" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
