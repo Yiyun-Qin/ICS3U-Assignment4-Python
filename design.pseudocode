@@ -1,0 +1,15 @@
+GET add_string
+GET loop_counter = 0
+GET answer = 0
+TRY
+    add_integer = int(add_string)
+    WHILE loop_counter <= add_integer
+        answer = answer + loop_counter
+        loop_counter = loop_counter + 1
+    ENDWHILE
+    SHOW "TThe sum of all positive integers from 1 to add_string is answer."
+EXCEPT Exception
+    SHOW "Invalid number!"
+FINALLY
+    SHOW "Done."
+ENDTRY
