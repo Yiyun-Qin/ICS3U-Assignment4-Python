@@ -5,16 +5,17 @@ TRY
     a_integer = int(a_string)
     b_integer = int(b_string)
     c_integer = int(c_string)
-    delta = b^2 - 4 * a * d
+    delta = pow(b_integer, 2) - 4 * a_integer * c_integer
+    SHOW "The equation is a_integerx^2+b_integerx+c_integer."
     IF delta < 0 THEN
-        SHOW "No solutions for this quadratic equation!"
+        SHOW "No real solutions for this quadratic equation!"
     ELSEIF delta == 0 THEN
-        x = (-b + √b^2 - 4ac) / 2a
+        x = (-b + pow(delta, 1 / 2)) / 2a
         SHOW "There is one solution for this quadratic equation. The answer is x."
     ELSE
-        x1 = (-b + √b^2 - 4ac) / 2a
-        x2 = (-b - √b^2 - 4ac) / 2a
-        SHOW "There are two solution for this quadratic equation. The answers are x1 and x2."
+        x1 = (-b + pow(delta, 1 / 2)) / 2a
+        x2 = (-b - pow(delta, 1 / 2)) / 2a
+        SHOW "There are two solutions for this quadratic equation. The answers are x1 and x2."
     ENDIF
 EXCEPT Exception
     SHOW "Invalid number!"
