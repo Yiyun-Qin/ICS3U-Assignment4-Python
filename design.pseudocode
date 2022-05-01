@@ -7,7 +7,7 @@ TRY
     c_integer = int(c_string)
     delta = pow(b_integer, 2) - 4 * a_integer * c_integer
     IF delta < 0 THEN
-        SHOW "No solutions for this quadratic equation!"
+        SHOW "No real solutions for this quadratic equation!"
     ELSEIF delta == 0 THEN
         x = (-b + √b^2 - 4ac) / 2a
         SHOW "There is one solution for this quadratic equation. The answer is x."
